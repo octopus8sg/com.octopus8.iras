@@ -44,6 +44,6 @@ when report is ready and sent to the IRAS you will get notification about status
 
 ![alt text](/assets/toster.png)
 
-Using navigation bar, ```IRAS > Online report``` is same as in offline report creation
+Using navigation bar, ```IRAS > Online report``` is the same as in offline report creation
 
 ![alt text](/assets/onlineSeparate.png)
