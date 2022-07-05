@@ -2,8 +2,6 @@
 
 namespace Civi\Api4;
 
-__autoload();
-
 /**
  * IrasDonation entity.
  *
@@ -32,9 +30,4 @@ class IrasDonation extends Generic\DAOEntity
         ];
     }))->setCheckPermissions($checkPermissions);
   }
-}
-
-function __autoload()
-{
-  require_once(dirname(__FILE__) . '\..\..\Generic\Report.php');
 }
