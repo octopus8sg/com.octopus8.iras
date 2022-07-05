@@ -4,7 +4,6 @@ namespace Civi\Api4;
 
 __autoload();
 
-use CRM_IrasOnlineReport;
 /**
  * IrasDonation entity.
  *
