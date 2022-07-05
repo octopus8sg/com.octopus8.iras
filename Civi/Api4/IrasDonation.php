@@ -32,5 +32,4 @@ class IrasDonation extends Generic\DAOEntity
 function __autoload()
 {
   require_once(dirname(__FILE__) . '\..\..\Generic\Report.php');
-  require_once(dirname(__FILE__) . '\IrasOnlineReport.php');
 }
