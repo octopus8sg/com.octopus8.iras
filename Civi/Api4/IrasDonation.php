@@ -25,6 +25,12 @@ class IrasDonation extends Generic\DAOEntity
       //     'code' => $reponse->returnCode
       //   ]
       // ];
+      return[
+          [
+              'state' => '',
+              'code' => ''
+          ]
+        ];
     }))->setCheckPermissions($checkPermissions);
   }
 }
