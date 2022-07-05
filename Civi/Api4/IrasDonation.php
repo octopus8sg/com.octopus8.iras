@@ -17,14 +17,14 @@ class IrasDonation extends Generic\DAOEntity
   public static function report($checkPermissions = TRUE)
   {
     return (new Generic\Report(__CLASS__, __FUNCTION__, function ($getFieldsAction) {
-      $cl = new CRM_IrasOnlineReport();
-      $reponse = $cl->onlineReport($getFieldsAction);
-      return [
-        [
-          'state' => $reponse->info,
-          'code' => $reponse->returnCode
-        ]
-      ];
+      // $cl = new CRM_IrasOnlineReport();
+      // $reponse = $cl->onlineReport($getFieldsAction);
+      // return [
+      //   [
+      //     'state' => $reponse->info,
+      //     'code' => $reponse->returnCode
+      //   ]
+      // ];
     }))->setCheckPermissions($checkPermissions);
   }
 }
