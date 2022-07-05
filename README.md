@@ -1,4 +1,4 @@
-# IRAS Donation extension ```v1.0.5```
+# IRAS Donation extension ```v1.0.6```
 ---
 CiviCRM extension for IRAS donation program
 
