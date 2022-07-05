@@ -107,6 +107,7 @@ function irasdonation_civicrm_navigationMenu(&$menu)
 {
   _irasdonation_civix_insert_navigation_menu($menu, '', [
     'label' => E::ts('IRAS'),
+    'icon' => 'crm-i fa-money',
     'name' => 'iras_donation',
     //'url' => 'civicrm/iras-donation',
     'permission' => 'adminster CiviCRM',
